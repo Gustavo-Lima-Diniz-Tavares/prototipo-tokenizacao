@@ -52,7 +52,7 @@ export default function TokenizacaoDemo() {
         <CardContent>
           <Stack spacing={2}>
             <Typography variant="h6" fontWeight="bold">
-              Login Simulado
+              Login
             </Typography>
 
             <TextField
@@ -85,7 +85,7 @@ export default function TokenizacaoDemo() {
         <CardContent>
           <Stack spacing={2}>
             <Typography variant="h6" fontWeight="bold">
-              Acesso a Documento Tokenizado
+              Acesso ao Documento Tokenizado
             </Typography>
 
             <TextField
