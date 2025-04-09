@@ -46,8 +46,12 @@ export default function TokenizacaoDemo() {
       flexDirection="column"
       alignItems="center"
       gap={3}
-      mt={5}
     >
+
+      <Box display="flex" justifyContent="center">
+        <img src="/Color logo - no background.png" alt="Logo do projeto" style={{ width: 240, height: 'auto' }} />
+      </Box>
+
       <Card sx={{ width: 500 }}>
         <CardContent>
           <Stack spacing={2}>
@@ -59,6 +63,7 @@ export default function TokenizacaoDemo() {
               label="Email"
               type="email"
               fullWidth
+              size="small"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -66,6 +71,7 @@ export default function TokenizacaoDemo() {
               label="Senha"
               type="password"
               fullWidth
+              size="small"
               value={senha}
               onChange={(e) => setSenha(e.target.value)}
             />
@@ -91,6 +97,7 @@ export default function TokenizacaoDemo() {
             <TextField
               label="Token do documento"
               fullWidth
+              size="small"
               value={token}
               onChange={(e) => setToken(e.target.value)}
               disabled={!logado}
